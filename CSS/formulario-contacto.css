@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    background: rgb(9,64,121);
+    background: linear-gradient(90deg, rgba(9,64,121,1) 29%, rgba(0,206,255,1) 100%);
+    font-family: "poppins";
+    }
+
+
+.input-name {
+    border: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 5px 5px;
+    margin-left: 10px;
+    font-family: "poppins";
+    text-align: right;
+    list-style: none;
+}
+
+ul li ul{
+    position: relative;
+    display: none;
+    overflow: hidden;
+    margin-left: -7%;
+}
+
+ul li ul li{
+    display: block;
+}
+
+ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+.grid {
+    width: 50%;
+    background: rgba(0, 0, 0, 0.4);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 15px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.imgform {
+    width: 675px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+    margin-top: 40px;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px;
+}
+
+label {
+    color: white;
+    font-size: large;
+}
+
+.input-name {
+    border-radius: 1em;
+}
+
+.option {
+    font-family: "poppins";
+}
+
+.textarea {
+    font-family: "poppins";
+   
+}
+
+.buttoncontainer {
+    margin-left: 100px;
+}

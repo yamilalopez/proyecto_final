@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 10vh;
+    background-color: chocolate;
+    margin: 10px 20px;
+}
+
+.bgyellow {
+    background-color: yellow;
+    width: 40%;
+    padding: 20px;
+    margin: 30px 5px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#caja {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    overflow: auto;
+    margin-left: 20px;
+    padding: 10px 30px;
+    border-style: inset;
+    border-width: 5px;
+    border-color: red;
+}

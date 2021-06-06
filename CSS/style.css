@@ -1,0 +1,31 @@
+
+    /* selectores de etiqueta */
+        h1 {
+            color:red
+        }
+        h2 {
+            color: springgreen;
+        }
+        p {
+            color: grey;
+        }
+
+       
+    /* selectores de clase */
+        .text-blue {
+            color: blue;
+        }
+
+    /* selectores de ID */ 
+        #caja1 {
+            color: yellow;
+        }
+
+    /* padres e hijos */ 
+        article p span {
+            color: violet;
+        }
+
+        ul li {
+            color: teal;
+        }

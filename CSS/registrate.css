@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: "poppins";
+}
+
+form {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: rgb(9,64,121);
+    background: linear-gradient(90deg, rgba(9,64,121,1) 29%, rgba(0,206,255,1) 100%);
+}
+
+.btn-submit {
+    margin-top: 2em;
+}
+
+.col-12 {
+    margin-top: 1em;
+}

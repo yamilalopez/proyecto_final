@@ -1,0 +1,28 @@
+body {
+    font-family: "poppins";
+}
+form{
+    background-image: url(../img/hsh3.jpg);
+    background-repeat: no-repeat;
+    width: 1350px;
+    height: 536px;
+    padding-top: 50px;
+}
+
+.grid {
+    width: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    
+    
+    padding-top: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.buttoncontainer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

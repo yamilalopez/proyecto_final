@@ -1,0 +1,73 @@
+.bg-dark {
+    background-color: black;
+}
+
+.bg-danger {
+    background-color: red;
+}
+
+.bg-info {
+    background-color: royalblue;
+}
+
+.bg-success {
+    background-color: green;
+}
+
+.bg-warning{
+    background-color: yellow;
+}
+
+.grid {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 50% 30% ;
+    grid-template-rows: 20vh 50vh;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid div{
+    width: 100px;
+    height: 100px;
+}
+
+/*Grid template */
+.grid-container {
+    display: grid;
+    grid-template-areas: 'top top top top'
+                            'main main main aside'
+                            'footer footer footer footer';
+}
+
+header {
+    grid-area: top;
+    height: 10vh;
+}
+
+main {
+    grid-area: main;
+    height: 50vh;
+}
+
+aside {
+    grid-area: aside;
+    height: 50vh;
+}
+
+footer { 
+    grid-area: footer;
+    height: 10vh;
+}
+
+@media only screen and (max-width: 800px){
+    .grid-container {
+        display: grid;
+        grid-template-areas: 'top top top top'
+                                'main main main main'
+                                'aside aside aside aside'
+                                'footer footer footer footer';
+    }
+}
