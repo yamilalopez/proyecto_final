@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+$font-color: white;
+
+.comprar {
+    background-image: url(../img/ptomadero.jpg);
+    height: 400px;
+}
+
+.comprar1 {
+    text-align: center;
+    font-family: "poppins";
+    padding-top: 30px;    
+
+    h3 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 50px;
+        color: $font-color;
+    }
+
+    button {
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 50px;
+    }
+}
+
+.barra-comprar {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+ul {
+    li {
+        font-family: "poppins";
+    }    
+}
+
+.btn-group {
+    font-family: "poppins";
+}
+
+.input-group {
+    margin-top: 40px;
+    font-family: "poppins";
+    
+}
+
+footer {
+    background: rgb(9,64,121);
+    background: linear-gradient(90deg, rgba(9,64,121,1) 29%, rgba(0,206,255,1) 100%);
+    margin-top: 15em;
+    text-align: center;
+    font-family: "poppins";
+    font-size: small;
+
+    .imgfooter {
+        display: inline-block;
+        text-align: center;
+    }
+
+    img {
+        width: 35px;
+        height: 35px;
+        margin-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    h6 {
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+    }
+    
+    ul {
+        color: white;
+        text-align: center;
+        margin-top: 8px;
+        margin-right: 40px;
+        list-style: none;
+    }
+}
+
+

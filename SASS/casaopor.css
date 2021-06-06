@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  font-family: "poppins";
+}
+
+.info {
+  background-color: #e1f1dd;
+  margin-top: -100px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.info h3 {
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.info .card {
+  margin-left: 200px;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.info .card button {
+  margin-top: 20px;
+}
+
+.slider {
+  padding-top: 20px;
+  width: 700px;
+  height: 700px;
+  margin: auto;
+}
+
+footer {
+  background: #094079;
+  background: -webkit-gradient(linear, left top, right top, color-stop(29%, #094079), to(#00ceff));
+  background: linear-gradient(90deg, #094079 29%, #00ceff 100%);
+  margin-top: 15em;
+  text-align: center;
+  font-family: "poppins";
+  font-size: small;
+}
+
+footer .imgfooter {
+  display: inline-block;
+  text-align: center;
+}
+
+footer img {
+  width: 35px;
+  height: 35px;
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+footer h6 {
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+}
+
+footer ul {
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+  margin-right: 40px;
+  list-style: none;
+}
+/*# sourceMappingURL=casaopor.css.map */
