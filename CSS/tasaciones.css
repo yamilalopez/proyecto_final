@@ -4,11 +4,16 @@ body {
   font-family: "poppins";
 }
 
+.nav-item {
+    margin-left: 20px;
+}
+
 .info {
   background-color: #e1f1dd;
   margin-top: 50px;
   margin-left: 40px;
   margin-right: 40px;
+  padding-bottom: 30px;
 }
 
 .info h2 {
