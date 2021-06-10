@@ -1,36 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
-
-body {
+nav {
   font-family: "poppins";
 }
 
-.info {
-  background-color: #e1f1dd;
-  margin-top: -100px;
-  margin-left: 40px;
-  margin-right: 40px;
+nav li {
+  padding-left: 20px;
 }
 
-.info h3 {
-  padding-top: 30px;
-  font-weight: bold;
-}
-
-.info .card {
-  margin-left: 200px;
-  height: 400px;
+.info h1 {
+  font-family: "poppins";
   margin-top: 30px;
 }
 
-.info .card button {
-  margin-top: 20px;
+.info p {
+  font-family: "poppins";
 }
 
-.slider {
-  padding-top: 20px;
-  width: 700px;
-  height: 700px;
-  margin: auto;
+.info .img {
+  margin-top: 100px;
 }
 
 footer {
@@ -69,4 +56,4 @@ footer ul {
   margin-right: 40px;
   list-style: none;
 }
-/*# sourceMappingURL=casaopor.css.map */
+/*# sourceMappingURL=tasaciones.css.map */
