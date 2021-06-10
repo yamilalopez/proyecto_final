@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
 body {
     font-family: "poppins";
 }
+
+nav {
+    font-family: "poppins";
+}
+
+nav li {
+    padding-left: 20px;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
 form{
     background-image: url(../img/hsh3.jpg);
     background-repeat: no-repeat;
