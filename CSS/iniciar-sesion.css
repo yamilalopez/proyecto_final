@@ -4,6 +4,18 @@ body {
     font-family: "poppins";
 }
 
+nav {
+    font-family: "poppins";
+}
+
+nav li {
+    padding-left: 20px;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
 form {
     padding-top: 2em;
     padding-bottom: 2em;
