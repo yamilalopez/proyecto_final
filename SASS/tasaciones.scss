@@ -7,9 +7,13 @@ nav {
 
     li {
         padding-left: 20px;
+    
+    }
+
+    li:hover {
+        text-decoration: underline;
     }
 }
-
 
 
 .info {
