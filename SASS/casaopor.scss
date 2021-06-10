@@ -7,6 +7,19 @@ body {
     font-family: "poppins";
 }
 
+nav {
+    font-family: $font-family;
+
+    li {
+        padding-left: 20px;
+    
+    }
+
+    li:hover {
+        text-decoration: underline;
+    }
+}
+
 .info {
     background-color: $background;
     margin-top: -100px;
