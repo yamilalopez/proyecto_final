@@ -4,6 +4,14 @@ nav {
     font-family: "poppins";
 }
 
+nav li {
+    padding-left: 20px;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
 .inicio{
     text-align: center;
     background-image: url("../img/hsh5.jpg");
