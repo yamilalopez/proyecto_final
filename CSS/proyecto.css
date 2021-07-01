@@ -2,6 +2,7 @@
 
 nav {
     font-family: "poppins";
+    width: 100%;
 }
 
 nav li {
@@ -17,21 +18,20 @@ nav li:hover {
     background-image: url("../img/hsh5.jpg");
     background-repeat: no-repeat;
     height: 500px;
-    width: 1400px;
-    margin-left: -118px;
+    width: 100%;
 }
 
 h1 {
     font-style: italic;
     font-family: "poppins";
     text-align: center;
-    padding-top: 2em;
+    padding-top: 3em;
 }
 
 .boton-inicio {
     height: 40px;
     width: 250px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -145,6 +145,7 @@ footer {
     text-align: center;
     font-family: "poppins";
     font-size: small;
+    width: 100%;
 }
 
 .imgfooter {
@@ -172,3 +173,7 @@ footer ul {
     margin-top: 8px;
     margin-right: 40px;
 }
+
+
+
+
