@@ -86,3 +86,16 @@ footer {
         list-style: none;
     }
 }
+
+
+@media (max-width: 991.98px) {
+
+    .card {
+        height: $largo/2;
+        margin-top: 30px;
+
+    button {
+        margin-top: 20px;
+    }
+    }
+}
