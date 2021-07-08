@@ -85,6 +85,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .card:hover {
@@ -95,8 +96,7 @@ h2 {
 
 .card {
     width: 300px;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 5em;
     margin-top: 2em;
     font-family: "poppins";
     border:solid;
